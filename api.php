@@ -1,5 +1,4 @@
 <?php
-header('Content-Type: application/json');
 
 $api_token = "796f09ec27e5b0ba3019897e0cdafd001f4cb733"; // Ia unul gratuit de pe https://aqicn.org
 $cache_dir  = __DIR__ . '/cache';
@@ -45,4 +44,5 @@ if (empty($aqi_data)) {
     file_put_contents($cache_file, json_encode($aqi_data));
 }
 
-echo json_encode($aqi_data);
+
+#echo json_encode($aqi_data);
