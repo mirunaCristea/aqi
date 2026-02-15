@@ -1,4 +1,5 @@
 <?php
+include 'api.php';
 $aqi_json = @file_get_contents('./cache/aqi_cache.json');
 $aqi_data = json_decode($aqi_json, true) ?: [];
 
