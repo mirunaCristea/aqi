@@ -46,3 +46,4 @@ if (empty($aqi_data)) {
 
 
 #echo json_encode($aqi_data);
+?>
